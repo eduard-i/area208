@@ -101,5 +101,5 @@ const stop_song = (message, server_queue) => {
     if (!message.member.voice.channel) return message.channel.send('Devi essere in un canale vocale per eseguire questo comando!');
     server_queue.songs = [];
     server_queue.connection.dispatcher.end();
-    message.channel.send('Sono uscita dal canale.. :smiling_face_with_tear:')
+    message.channel.send('Sono uscita dal canale... :smiling_face_with_tear:')
 }
