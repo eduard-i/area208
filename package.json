@@ -1,7 +1,6 @@
 {
   "name": "discordbot",
   "version": "1.0.0",
-  "description": "",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,7 +12,19 @@
     "discord.js": "^12.5.1",
     "ffmpeg-static": "^4.2.7",
     "fs": "0.0.1-security",
+    "puppeteer-core": "^7.0.4",
     "yt-search": "^2.7.3",
     "ytdl-core": "^4.4.5"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduard-i/kiko.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/eduard-i/kiko/issues"
+  },
+  "homepage": "https://github.com/eduard-i/kiko#readme",
+  "description": ""
 }
