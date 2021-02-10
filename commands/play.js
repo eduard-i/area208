@@ -62,7 +62,7 @@ module.exports = {
                 }
             } else{
                 server_queue.songs.push(song);
-                return message.channel.send(`👍 La canzone**${song.title}** è stata aggiunta alla coda!`);
+                return message.channel.send(`👍 La canzone **${song.title}** è stata aggiunta alla coda!`);
             }
         }
 
