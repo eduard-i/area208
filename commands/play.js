@@ -35,7 +35,7 @@ module.exports = {
                 if (video){
                     song = { title: video.title, url: video.url }
                 } else {
-                     message.channel.send('Non sono riuscita a trovare il video.');
+                     message.channel.send('Non sono riuscito a trovare il video.');
                 }
             }
 
@@ -57,7 +57,7 @@ module.exports = {
                     video_player(message.guild, queue_constructor.songs[0]);
                 } catch (err) {
                     queue.delete(message.guild.id);
-                    message.channel.send('Non sono riuscita a connettermi!');
+                    message.channel.send('Non sono riuscito a connettermi!');
                     throw err;
                 }
             } else {
@@ -101,5 +101,5 @@ const stop_song = (message, server_queue) => {
     if (!message.member.voice.channel) return message.channel.send('Devi essere in un canale vocale per eseguire questo comando!');
     server_queue.songs = [];
     server_queue.connection.dispatcher.end();
-    message.channel.send('Sono uscita dal canale... :smiling_face_with_tear:')
+    message.channel.send('Sono uscito dal canale... :smiling_face_with_tear:')
 }
