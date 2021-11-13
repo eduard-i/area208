@@ -1,3 +1,3 @@
 module.exports = () => {
-    console.log('Kiko è stata inizializzata!');
+    console.log('Il BOT ufficiale di 𝗔𝗿𝗲𝗮 𝟮𝟬𝟴 è stata inizializzata!');
 }
