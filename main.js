@@ -8,7 +8,7 @@ client.on("ready", () => {
   client.user.setPresence({
     status: 'dnd',
    activity: {
-      name: 'Las bolas de via Pál',
+      name: '𝗔𝗿𝗲𝗮 𝟮𝟬𝟴',
       type: "WATCHING",
     }
   });
