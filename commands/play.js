@@ -7,7 +7,7 @@ module.exports = {
     name: 'play',
     aliases: ['skip', 'stop'], 
     cooldown: 0,
-    description: 'Il primo BOT di : https://discord.gg/ntHKbrwAaV',
+    description: 'Il primo BOT di: https://discord.gg/hAt2fAbv9k',
     async execute(message,args, cmd, client, Discord){
 
         const voice_channel = message.member.voice.channel;
