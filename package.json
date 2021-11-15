@@ -21,12 +21,12 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eduard-i/kiko.git"
+    "url": "git+https://github.com/eduard-i/area208.git"
   },
   "keywords": [],
   "bugs": {
-    "url": "https://github.com/eduard-i/kiko/issues"
+    "url": "https://github.com/eduard-i/area208/issues"
   },
-  "homepage": "https://github.com/eduard-i/kiko#readme",
+  "homepage": "https://github.com/eduard-i/area208#readme",
   "description": ""
 }
