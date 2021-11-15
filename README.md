@@ -1,2 +1,2 @@
-# kiko
-Kiko, il BOT di League Of Legends che tutti aspettavamo.
+# Area208
+Un BOT per Discord, riproduce musica usando una fetch su youtube!
